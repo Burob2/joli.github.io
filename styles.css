@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #ff0000;
+}
+
+header.jumbotron {
+    background: url('../img/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+
+header.jumbotron h1, header.jumbotron p {
+    margin: 0;
+}
+
+header.jumbotron h1 {
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+header.jumbotron p {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+section h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    header.jumbotron h1 {
+        font-size: 2.5rem;
+        margin-top: 80px;
+    }
+
+    header.jumbotron p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    header.jumbotron h1 {
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+
+    header.jumbotron p {
+        font-size: 1rem;
+    }
+
+    .navbar-brand, .nav-link {
+        font-size: 1.2rem;
+    }
+}
